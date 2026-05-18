@@ -416,6 +416,7 @@ footer li {
     width: 70%;
     float: right;
     transform: translateX(-15px);
+    padding: 7%;
   }
   .timeline li .timeline-panel::before {
     border-left-width: 0;
@@ -455,6 +456,7 @@ footer li {
   .timeline li .timeline-panel {
     width: 70%;
     transform: translateX(-8px);
+    padding: 9.6%;
   }
   .timeline li .timeline-panel::before {
     top: 30px;
@@ -510,7 +512,7 @@ footer li {
   .timeline li .timeline-panel {
     width: 60%;
     transform: translateX(-15px);
-    padding: 1.5%;
+    padding: 6.5%;
   }
   .timeline li .timeline-panel::before {
     top: 28px;
@@ -531,7 +533,7 @@ footer li {
   .timeline li .timeline-panel {
     width: 55%;
     transform: translateX(-15px);
-    padding: 0.6%;
+    padding: 7.6%;
   }
   .timeline li .timeline-panel .timeline-heading h3,
   .timeline li .timeline-panel .timeline-heading span {
