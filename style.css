@@ -7,7 +7,8 @@
 body {
   font-size: 1.2rem;
   font-family: 'Work Sans', sans-serif;
-  min-height: 4000px;
+  /* min-height: 4000px; */
+  overflow-x: hidden;
 }
 
 .hero::before {
@@ -175,8 +176,8 @@ body {
 .gallery,
 .rsvp,
 .gifts {
-  padding-top: 10rem;
-  padding-bottom: 8rem;
+  padding-top: 2rem;
+  /* padding-bottom: 8rem; */
 }
 .story span,
 .gallery span,
@@ -239,7 +240,7 @@ body {
   width: 40%;
   float: left;
   border: 1px solid #ccc;
-  padding: 2rem;
+  padding: 3rem;
   position: relative;
   border-radius: 8px;
   background-color: #fff;
@@ -473,15 +474,15 @@ footer li {
     margin: 2px;
   }
   .timeline li .timeline-image {
-    width: 115px;
-    height: 115px;
+    width: 106px;
+    height: 106px;
     left: 0;
     top: 5px;
   }
   .timeline li .timeline-panel {
     width: 55%;
     transform: translateX(-20px);
-    padding: 2%;
+    padding: 7%;
   }
   .timeline li .timeline-panel::before {
     top: 30px;

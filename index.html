@@ -13,24 +13,32 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- simply countdown -->
     <link rel="stylesheet" href="countdown/circle.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
     <script src="countdown/simplyCountdown.umd.js"></script>
   </head>
-  <body>
+  <body style="body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}">
     <!-- bagian hero -->
     <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
       <main>
         <img src="img/JP_logo.png" style="width: 100px;" class="img-responsive rounded-circle"/>
-        <h4>A new chapter begins</h4>
-        <h1>Premson & Jina</h1>
-        <p>Counting down to our big day</p>
+        <h4 style="font-family: 'Great Vibes'; font-size: 25px;">A new chapter begins</h4>
+        <p style="font-family: 'Sacramento', cursive;font-size: 50px;">Premson Singh Samom </p>
+        <p style="font-family: 'Sacramento', cursive; font-size: 50px;margin: -34px 0 -19px 0;">&</p> 
+        <p style="font-family: 'Sacramento', cursive; font-size: 50px;">Tayenjam Jina Chanu</p>
+        <p style="font-family: Playfair Display; font-size: 17px;">Counting down to our big day</p>
         <!-- nanti ada countdown disini -->
         <div id="countdown" class="countdown simply-countdown-circle mt-4 mb-4"></div>
-        <a href="#story" class="btn mt-4" btn-lg onClick="enableScroll()">Click here to scroll down</a>
+        <!-- <a href="#story" class="btn mt-4" btn-lg onClick="enableScroll()">Click here to scroll down</a> -->
       </main>
     </section>
 
     <!-- bagian navbar -->
-    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar" style="display: none;">
       <div class="container">
         
         <!-- <a class="navbar-brand" href="#">Premson & Jina</a> -->
@@ -162,12 +170,12 @@
     </section>
 
     <!-- bagian story -->
-    <section id="story" class="story">
+    <section id="story" class="story" style="background-image: url(img/floraPattern1.png);">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-8 col-10 text-center">
            
-            <h2>Save the Date</h2>
+            <h2 style="font-family: 'Great Vibes';">Save the Date</h2>
             <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi officia deserunt nam, adipisci porro doloremque.</p> -->
           </div>
         </div>
@@ -179,8 +187,8 @@
                 <div class="timeline-image" style="background-image: url(img/heijingpot.png); width: ;"></div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h3>Heijing Kharai</h3>
-                    <span>25th November 2026, Wednesday</span>
+                    <h3 style="font-family: Cinzel;">HEIJING KHARAI</h3>
+                    <span style="font-family: Playfair Display; ">25 November 2026, Wednesday</span>
                   </div>
                   <div class="timeline-body" style="display: none;">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident repellendus sint rerum adipisci, obcaecati aperiam!</p>
@@ -192,8 +200,8 @@
                 <div class="timeline-image" style="background-image: url(img/wedding.png);"></div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h3>Wedding</h3>
-                    <span>27th November 2026, Friday</span>
+                    <h3 style="font-family: Cinzel;">WEDDING</h3>
+                    <span style="font-family: Playfair Display; ">27 November 2026, Friday</span>
                   </div>
                   <div class="timeline-body" style="display: none;">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident repellendus sint rerum adipisci, obcaecati aperiam!</p>
@@ -333,7 +341,7 @@
                   this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
                   };
                   */
-                  (function() { // DON'T EDIT BELOW THIS LINE
+                   (function() { // DON'T EDIT BELOW THIS LINE
                   var d = document, s = d.createElement('script');
                   s.src = 'https://mywedding1-1.disqus.com/embed.js';
                   s.setAttribute('data-timestamp', +new Date());
@@ -348,7 +356,7 @@
      </section>
 
      <!-- gifts -->
-     <section id="gifts" class="gifts" style="display: none;">
+     <!-- <section id="gifts" class="gifts" style="display: none;">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-8 col-10 text-center">
@@ -372,7 +380,7 @@
             </ul>
           </div>
         </div>
-     </section>
+     </section> -->
 
      <!-- footer -->
       <footer style="display: none;">
@@ -405,7 +413,7 @@
           <i class="bi bi-disc"></i>
         </div>
        </div> -->
-
+</body>
 <!-- script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.5/dist/index.bundle.min.js"></script>
@@ -545,5 +553,5 @@
       document.querySelector('#nama').value = nama;
      </script>
 
-  </body>
+  
 </html>
